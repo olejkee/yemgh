@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'ABC Favorit Pro Variable', sans-serif;
+  font-size: 16px;
+}
+
+// body {
+//   margin: 0;
+// }
+
+.page {
+    inline-size: var(--main-size); 
+    block-size: 100%;    /* Высота 100% родительского контейнера */
+    margin: 0 auto;      /* Центрирование по горизонтали */
+    background-color: var(--color-primary);
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+// a {
+//   text-decoration: none;
+//   color: #000000;
+// }
+
+// @media (max-width: 1024px) {
+//   body {
+//     font-size: 16px;
+//   }
+// }
+
+// @media (max-width: 768px) {
+//   body {
+//     font-size: 14px;
+//   }
+// }

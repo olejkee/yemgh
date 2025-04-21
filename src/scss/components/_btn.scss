@@ -1,0 +1,75 @@
+// .btn{
+//   display: inline-block;
+//   padding: 10px 20px;
+//   background: #000;
+//   color: #fff;
+//   border-radius: 5px;
+//   font-size: 16px;
+//   text-decoration: none;
+
+//   &--outline{
+//     background-color: transparent;
+//     color: black;
+//     border: 1px solid black;
+//   }
+
+//   &--accent{
+//     background: var(--color-accent);
+//     color: black;
+//   }
+
+//   &--default{
+//     background: red;
+//     color: black;
+//   }
+
+//   &--sm{
+//     font-size: 14px;
+//     padding: 6px 10px;
+//   }
+// }
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; // Если нужно расстояние между текстом и иконкой
+  text-align: center; // Для выравнивания текста
+  padding: var(--btn-padding);
+  font-size: var(--font-size-btn);
+  text-decoration: none;
+  border-radius: 32px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: var(--color-accent);
+}
+
+.btn-primary {        
+  background: var(--color-light);
+  color: var(--color-primary);
+  border: 2px solid var(--color-light);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-light);
+  border: 2px solid var(--color-light);
+}
+
+.header__btn {
+  --btn-padding: 0.75rem 1.5rem; // Новое значение для padding
+
+}
+// .btn_icon {
+//   height: 20px;
+//   width: 20px;
+// }

@@ -1,0 +1,126 @@
+.header {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  padding: 30px 0 80px 0;
+  flex-direction: column; /* Располагаем элементы вертикально */
+  justify-content: space-between; /* Разделяем элементы по вертикали */
+}
+
+.header__container {
+  --main-size: 1240px;
+  max-width: var(--main-size);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.header__menu_links {
+  display: flex;
+  gap: var(--main-gap);
+}
+
+.header__links-list {
+  display: flex;
+  align-items: center;
+  gap: var(--main-gap);
+  list-style: none;
+}
+
+.links-list-item {
+  text-transform: uppercase;
+}
+
+// .links-list-item:hover {
+//   color: #2e5bff;
+// }
+
+.item-link {
+  color: var(--color-light);
+  text-decoration: none;
+  font-size: var(--font-size-btn);
+}
+
+.header__video-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.header__content {
+  position: relative;
+  z-index: 3;
+  color: white;
+  margin: 0 auto;
+}
+
+.header__title {
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height);
+  margin-bottom: 2rem;
+}
+
+.header__subtitle {
+  font-size: var(--font-size-p-header);
+  margin-bottom: 2rem;
+  margin: 0;
+}
+
+.header__menu {
+  --line-height: 1.15;
+  position: relative; /* Убираем абсолютное позиционирование */
+  z-index: 4;
+  font-size: var(--font-size-p-header);
+  line-height: var(--line-height);
+}
+
+// /* Мобильная адаптация меню */
+// @media (max-width: 1200px) {
+//   .menu-items {
+//     gap: 20px;
+//   }
+  
+//   .menu-items a {
+//     font-size: 14px;
+//   }
+// }
+
+// @media (max-width: 992px) {
+//   .menu-container {
+//     flex-direction: column;
+//     gap: 15px;
+//   }
+  
+//   .menu-items {
+//     flex-wrap: wrap;
+//     justify-content: center;
+//   }
+// }
+
+// @media (max-width: 576px) {
+//   .menu-items {
+//     gap: 10px;
+//   }
+  
+//   .menu-items a {
+//     font-size: 12px;
+//   }
+  
+//   .logo {
+//     font-size: 20px;
+//   }
+  
+//   .menu-container {
+//     padding: 0 15px;
+//   }
+// }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/css/style.min.css">
+  <title>Document</title>
+</head>
+<body class="page">
+  <header class="header container">
+    <!-- Видео-фон -->
+    <video class="header__video-bg" autoplay muted loop playsinline>
+      <source src="./src/video/video.mp4" type="video/mp4">
+      Ваш браузер не поддерживает видео
+    </video>
+    <!-- Затемнение фона -->
+    <div class="overlay"></div>
+    <!-- Меню -->
+    <nav class="header__menu">
+      <div class="header__container">
+        <img class="logo" src="./src/images/Logo Sign.svg" alt="логотип сайта"></img>
+        <div class="header__menu_links">
+          <ul class="header__links-list">
+            <li class="links-list-item"><a class="item-link" href="#">О нас</a></li>
+            <li class="links-list-item"><a class="item-link" href="#">услуги</a></li>
+            <li class="links-list-item"><a class="item-link" href="#">Хиты продаж</a></li>
+            <li class="links-list-item"><a class="item-link" href="#">Отзывы</a></li>
+          </ul>
+          <a href="#" class="header__btn btn btn-primary">
+            <img class="btn_icon" src="/src/images/grid.svg" alt="каталог">
+              КАТАЛОГ
+          </a>
+          <a href="#" class="header__btn btn btn-secondary">ЗАЯВКА НА ПОДБОР</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Контент -->
+    <div class="header__content">
+      <h1 class="header__title">Neginsky</h1>
+      <div class="header__container">
+        <p class="header__subtitle">Аналитическое бюро <br>
+          недвижимости</p>
+        <div class="buttons">
+          <a href="#" class="btn btn-secondary">ПЕРЕЙТИ В КАТАЛОГ</a>
+          <a href="#" class="btn btn-primary">ЗАЯВКА НА ПОДБОР</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="intro"></section>
+  </main>
+</body>
+</html>

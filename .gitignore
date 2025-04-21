@@ -1,0 +1,35 @@
+# Папки
+/node_modules/
+/tmp/
+/.temp/
+/.cache/
+/.sass-cache/
+
+# Файлы сборки и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Локальные настройки
+.env
+.env.local
+.env.*.local
+
+# IDE/Редакторы
+.vscode/
+.idea/
+*.code-workspace
+
+# npm/yarn
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Gulp-специфика
+.gulp-cache/

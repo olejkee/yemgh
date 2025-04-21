@@ -1,0 +1,43 @@
+.product-card{
+  display: flex;
+  flex-direction: column;
+
+  &__img{
+
+  }
+
+  &__body{
+
+  }
+
+  &__title{
+
+  }
+
+  &__desc{
+
+  }
+
+  // 
+  &--dark{
+
+  }
+
+  &--dark &{
+    &__img{
+
+    }
+
+    &__body{
+
+    }
+  
+    &__title{
+  
+    }
+  
+    &__desc{
+  
+    }
+  }
+}
