@@ -18,7 +18,7 @@
     <!-- Меню -->
     <nav class="header__menu">
       <div class="header__container">
-        <img class="logo" src="./src/images/Logo Sign.svg" alt="логотип сайта"></img>
+        <img class="header__logo" src="./src/images/Logo Sign.svg" alt="логотип сайта"></img>
         <div class="header__menu_links">
           <ul class="header__links-list">
             <li class="links-list-item"><a class="item-link" href="#">О нас</a></li>
@@ -26,11 +26,14 @@
             <li class="links-list-item"><a class="item-link" href="#">Хиты продаж</a></li>
             <li class="links-list-item"><a class="item-link" href="#">Отзывы</a></li>
           </ul>
-          <a href="#" class="header__btn btn btn-primary">
+          <button><a href="#" class="header__btn btn btn-primary">
             <img class="btn_icon" src="/src/images/grid.svg" alt="каталог">
               КАТАЛОГ
           </a>
-          <a href="#" class="header__btn btn btn-secondary">ЗАЯВКА НА ПОДБОР</a>
+        </button>
+          <button>
+            <a href="#" class="header__btn btn btn-secondary">ЗАЯВКА НА ПОДБОР</a>
+          </button>
         </div>
       </div>
     </nav>
@@ -47,10 +50,57 @@
       </div>
     </div>
   </header>
-  <main>
-    <section class="intro"></section>
+  <main class="main">
+    <section class="intro container">
+      <div class="intro__header">
+        <h3 class="intro__title desktop_txt">Привет, меня зовут
+           <span class="highlight">Андрей Негинский</span>! Я основатель <br>
+           <span class="highlight">Neginsky Bureau</span>
+          Наша команда будет рада уберечь вас от <br>
+          ошибок при выборе недвижимости и подобрать наиболее <br>
+          инвестиционно привлекательные объекты.
+        </h3>
+        <h3 class="intro__title mobile_txt">
+          Привет, меня зовут Андрей<br>
+      Негинский! Я основатель Neginsky<br>
+      Bureau. Наша команда будет рада<br>
+      уберечь вас от ошибок при выборе<br>
+      недвижимости и подобрать<br>
+      наиболее инвестиционно<br>
+      привлекательные объекты.
+        </h3>
+        <div class="intro__logo_container logo_container">
+          <img class="intro__logo" src="./src/images/intro__Logo Sign.svg" alt="логотип сайта"></img>
+        </div>  
+      </div>
+      <div class="intro_socials">
+        <div class="intro__card">
+          <div class="card_title_container">
+            <p class="card_title_txt">Ведем самый большой телеграм-канал о <br>
+              недвижимости Москвы и Дубая среди всех <br>
+              русскоязычных агентств.</p>
+          </div>
+          <div class="card_btn_container buttons">
+            <button class="card_btn">
+              <a href="#" class="card__btn btn btn_accent">подписаться в telegram</a>
+            </button>
+            <button class="tg_link mobile_icon">
+              <a href="#" class="">
+                <img src="./src/images/tg_Frame.svg" alt="tg logotype">
+              </a>
+            </button>
+          </div>
+          <div class="card_img_cotainer desktop_only">
+            <img class="card_img" src="./src/images/прайм парк.png" alt="фотонах">
+          </div>
+        </div>
+        <div class="intro_img_container">
+          <img class="intro_img" src="./src/images/nos.png" alt="nos">
+        </div>
+      </div>
+    </section>
   </main>
 
-  
+
 </body>
 </html>

@@ -47,6 +47,7 @@
   text-decoration: none;
   border-radius: 32px;
   transition: background 0.3s;
+  text-transform: uppercase;
 }
 
 .btn:hover {
@@ -65,9 +66,19 @@
   border: 2px solid var(--color-light);
 }
 
+.btn_accent {
+  background: transparent;
+  color: var(--color-accent);
+  border: 2px solid var(--color-accent);
+}
+
 .header__btn {
   --btn-padding: 0.75rem 1.5rem; // Новое значение для padding
 
+}
+
+.card_btn_container {
+  margin: 32px 0 64px 0;
 }
 // .btn_icon {
 //   height: 20px;
