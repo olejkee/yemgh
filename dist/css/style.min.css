@@ -123,6 +123,17 @@ button {
   max-width: var(--main-size);
 }
 
+/* Базовый разделитель */
+.divider {
+  position: relative;
+}
+
+/* 1. Простая линия */
+.divider[data-type=line] {
+  height: 2px;
+  background: var(--color-primary);
+}
+
 .highlight {
   color: var(--color-accent);
 }
@@ -162,6 +173,11 @@ button {
 }
 .product-list__item {
   padding: 1px;
+}
+
+.title {
+  font-size: var(--font-size-h2);
+  font-weight: normal;
 }
 
 .header {
@@ -308,4 +324,49 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.product {
+  padding: var(--main-padding);
+  background-color: var(--color-light);
+}
+.product__bureau {
+  display: flex;
+  justify-content: space-between;
+}
+.product__bureau_advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.product__bureau_card {
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+}
+.product__img {
+  margin: 66px 0 24px 0;
+}
+.product__divider {
+  margin: 100px 0 100px 0;
+}
+
+.card_title_container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.product__services_circle_container {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
 }

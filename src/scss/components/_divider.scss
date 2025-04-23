@@ -1,0 +1,12 @@
+
+/* Базовый разделитель */
+.divider {
+    // margin: 40px 0;
+    position: relative;
+  }
+  
+  /* 1. Простая линия */
+  .divider[data-type="line"] {
+    height: 2px;
+    background: var(--color-primary);
+  }
