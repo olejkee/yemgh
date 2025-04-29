@@ -1,0 +1,55 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+
+  &__bg_img_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--main-size);
+    height: 900px;
+    background-image: url("/src/images/shagal.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 2;
+    padding: var(--main-padding);
+    display: flex;
+    flex-direction: column;
+    gap: 245px;
+    color: var(--color-light);
+  }
+
+  &__title_container {
+    // display: flex;
+
+  }
+
+  &__controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+&__btn  {
+    --btn-padding: 0.75rem 1.125rem;
+}
+
+&__btn_no_border {
+    border: none;
+}
+
+&__btns_container .hero__btn_no_border {
+    padding: 0;
+}
+
+// &__info_container {
+    
+// }
+
+
+}

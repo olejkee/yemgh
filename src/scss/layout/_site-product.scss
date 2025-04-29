@@ -1,0 +1,78 @@
+.product {
+    padding: var(--main-padding);
+    background-color: var(--color-light);
+    overflow: hidden;
+  }
+  .product__bureau {
+    display: flex;
+    justify-content: space-between;
+  }
+  .product__bureau_advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+  }
+  .product__bureau_card {
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+  }
+  .product__card_title {
+    font-size: var(--font-size-h5);
+    font-weight: 500;
+  }
+  .product__img {
+    margin: 66px 0 24px 0;
+  }
+  .product__divider {
+    margin: 100px 0 100px 0;
+  }
+  .product__services {
+    display: flex;
+    justify-content: space-between;
+  }
+  .product__services_desc_txt_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .product__services_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .product__property_list {
+    list-style: none;
+  }
+  
+  .card_title_container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .product__property_item .card_title_container {
+    justify-content: space-between;
+  }
+  
+  .card_txt_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .product__services_circle_container {
+    display: flex;
+    margin: 231px 0 35px;
+    margin-left: -125px;
+  }
+
+  .product__property_list .divider {
+    margin: 44px 0 48px 0;
+  }
+
+.residential {
+  display: flex;
+  flex-direction: column;
+  gap: var(--main-gap);
+}

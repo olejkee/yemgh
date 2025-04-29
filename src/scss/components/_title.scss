@@ -1,12 +1,24 @@
 .title_h2 {
     font-size: var(--font-size-h2);
+}
+
+.title_h3 {
+    font-size: var(--font-size-h3);
     font-weight: normal;
 }
 
-.title_h4 {
+.title_h5 {
+    font-size: var(--font-size-h5);
+}
+
+.intro__title {
     font-size: var(--font-size-h4);
 }
 
-.title_h4 .highlight {
-    font-size: var(--font-size-h4);;
+.intro__title .highlight {
+    font-size: var(--font-size-h4);
+}
+
+.title_h5 .highlight {
+    font-size: var(--font-size-h5);;
 }
