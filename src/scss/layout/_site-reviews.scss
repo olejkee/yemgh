@@ -1,0 +1,57 @@
+.reviews {
+  background-color: var(--color-cream);
+  padding: var(--main-padding);
+  position: relative;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title_container {
+    display: flex;
+    flex-direction: column;
+    gap: 145px;
+  }
+
+  &__txt_conainer {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+
+  &__from_users {
+    width: 550px;
+    word-wrap: break-word;
+  }
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 67px;
+
+  &__text {
+    line-height: 1.3;
+    word-wrap: break-word;
+  }
+
+  &__author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  &__author_details {
+    font-size: 15px;
+    opacity: 0.4;
+  }
+}

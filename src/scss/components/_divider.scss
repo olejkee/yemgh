@@ -10,3 +10,8 @@
     height: 2px;
     background: var(--color-primary);
   }
+
+  .hero__list .divider[data-type="line"] {
+    background: var(--color-light);
+    width: 313px;
+  }

@@ -26,7 +26,6 @@
 
   &__title_container {
     // display: flex;
-
   }
 
   &__controls {
@@ -35,21 +34,58 @@
     justify-content: space-between;
   }
 
-&__btn  {
+  &__btn {
     --btn-padding: 0.75rem 1.125rem;
-}
+  }
 
-&__btn_no_border {
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &__txt {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+
+  &__price {
+    font-size: 2rem;
+  }
+
+  &__btn_no_border {
     border: none;
-}
+  }
 
-&__btns_container .hero__btn_no_border {
+  &__btns_container .hero__btn_no_border {
     padding: 0;
-}
+    font-size: 15px;
+  }
 
-// &__info_container {
-    
-// }
+  &__desc .hero__btn {
+    padding: 18px 28px;
+    width: 152px;
+  }
 
+  &__info_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &__list_item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item_title {
+    font-size: 15px;
+  }
 
 }
