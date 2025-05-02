@@ -212,6 +212,7 @@ button {
 
 .title_h5 {
   font-size: var(--font-size-h5);
+  font-weight: 500;
 }
 
 .intro__title {
@@ -224,6 +225,63 @@ button {
 
 .title_h5 .highlight {
   font-size: var(--font-size-h5);
+}
+
+.cta {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.cta__content {
+  display: flex;
+}
+.cta__title_container {
+  margin-bottom: 3rem;
+}
+.cta__title {
+  margin-bottom: 2rem;
+}
+.cta__btns_container {
+  margin-bottom: 3.5rem;
+}
+.cta__pyramid {
+  position: relative;
+  width: 804px; /* Ширина контейнера */
+  height: 624px; /* Высота контейнера */
+}
+.cta__circle {
+  position: absolute;
+  width: 160px; /* Размер круга */
+  height: 160px;
+  border-radius: 50%; /* Делаем круглым */
+  background-color: white; /* Цвет круга */
+  border: 2px solid white; /* Обводка белого цвета */
+}
+.cta__top_circle {
+  top: 50px; /* Расположение сверху */
+  left: 50%;
+  transform: translateX(-50%); /* Центрирование по горизонтали */
+}
+.cta__circle:nth-child(2) {
+  top: 150px;
+  left: 100px;
+}
+.cta__circle:nth-child(3) {
+  top: 150px;
+  right: 100px;
+}
+.cta__circle:nth-child(4) {
+  top: 250px;
+  left: 50px;
+}
+.cta__circle:nth-child(5) {
+  top: 250px;
+  left: 200px;
+}
+.cta__circle:nth-child(6) {
+  top: 250px;
+  right: 50px;
 }
 
 .header {

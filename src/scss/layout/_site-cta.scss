@@ -1,0 +1,68 @@
+.cta {
+    background-color: var(--color-accent);
+    color: var(--color-light);
+    padding-top: 100px;
+    padding-left: 100px;
+
+    &__content {
+        display: flex;
+    }
+
+    &__title_container {
+        margin-bottom: 3rem;
+    }
+
+    &__title {
+        margin-bottom: 2rem;
+    }
+
+    &__btns_container {
+        margin-bottom: 3.5rem;
+    }
+
+    &__pyramid {
+        position: relative;
+        width: 804px; /* Ширина контейнера */
+        height: 624px; /* Высота контейнера */
+    }
+
+    &__circle {
+        position: absolute;
+        width: 160px; /* Размер круга */
+        height: 160px;
+        border-radius: 50%; /* Делаем круглым */
+        background-color: white; /* Цвет круга */
+        border: 2px solid white; /* Обводка белого цвета */
+    }
+
+    &__top_circle {
+        top: 50px; /* Расположение сверху */
+        left: 50%;
+        transform: translateX(-50%); /* Центрирование по горизонтали */
+    }
+
+    &__circle:nth-child(2) {
+        top: 150px;
+        left: 100px;
+    }
+
+    &__circle:nth-child(3) {
+        top: 150px;
+        right: 100px;
+    }
+
+    &__circle:nth-child(4) {
+        top: 250px;
+        left: 50px;
+    }
+
+    &__circle:nth-child(5) {
+        top: 250px;
+        left: 200px;
+    }
+
+    &__circle:nth-child(6) {
+        top: 250px;
+        right: 50px;
+    }
+}
